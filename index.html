@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myModule1Solution">
+<head>
+    <meta charset="UTF-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>    
+    <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    -->
+    <title>Module 1 assignment</title>
+</head>
+<body>
+    <h1>Module 1 assigment</h1>
+    <h2>Items for Lunch</h2>
+    <div ng-controller="ITController">
+       <input type="text" ng-model="items">
+       <button ng-click="setMsg();">Check If Too Much</button>
+       <br>
+       {{message}}
+       <br>
+       {{items}}
+       </div>
+        
+    </div>
+    
+</body>
+</html>
